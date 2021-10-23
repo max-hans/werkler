@@ -1,0 +1,18 @@
+<script>
+</script>
+
+# about
+
+<div class="text-container">
+
+<img src="/_res/profile.jpg">
+
+Minim in tempor pariatur cillum nisi dolore cillum aliqua sunt amet ipsum. Sit elit nostrud consequat est nostrud magna pariatur do ea dolore. Adipisicing Lorem id dolor non ex do cillum non ut. Ex Lorem ipsum ea ut adipisicing do incididunt voluptate consectetur duis laboris nisi et. Eiusmod quis nisi esse ipsum et quis occaecat veniam ea sit veniam.
+
+</div>
+
+<style>
+    img{
+        width: 100%;
+    }
+</style>

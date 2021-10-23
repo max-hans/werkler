@@ -1,0 +1,44 @@
+<script lang="ts" context="module">
+	import type { Load } from '@sveltejs/kit';
+	export const load: Load = async ({ fetch }) => {
+		const res = await fetch('/articles');
+		const posts = (await res.json())		
+		return { props: { posts } };
+	};
+</script>
+
+<script lang="ts">
+    import PostsList from "../components/PostsList.svelte"
+	import Filter from "../components/Filter.svelte"
+	
+	import {filterOptions} from "../config.ts"
+
+	export let posts;
+
+	let filter = "none";
+
+	$: postsFiltered = posts.filter(elem => {
+		if(filter !== "none"){
+			return(elem.metadata.type === filter)
+			}
+		return elem
+	})
+</script>
+
+<div class="text-container">
+
+## about
+
+Nulla qui ad quis adipisicing laborum. Cillum nulla irure tempor cupidatat pariatur. Aliquip amet aliquip et proident ullamco. Cillum veniam quis culpa esse in. Ad esse consequat dolore excepteur ullamco minim dolore tempor esse eu est. Nostrud adipisicing do ut eiusmod aliqua enim qui veniam id aute incididunt. Pariatur aliqua elit est magna minim.
+
+</div>
+
+## works
+
+<Filter bind:filter={filter} filterOptions={filterOptions}/>
+
+<PostsList posts={postsFiltered}/>
+
+<style>
+
+</style>
