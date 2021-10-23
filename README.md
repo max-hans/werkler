@@ -87,15 +87,13 @@ most of the css is found in `/src/routes/__layout.svelte`. currently there is on
 
 ## building / hosting
 
-Before creating a production version of your app, install an [adapter](https://kit.svelte.dev/docs#adapters) for your target environment. Then:
+werkler comes with an adapter for netlify, so building for netlify just requires linking your github account and committing your changes to the main branch. netlify will then trigger a rebuild and deploy your site automatically as soon as you push your changes to your repo!
 
 ```bash
 npm run build
 ```
 
 > You can preview the built app with `npm run preview`, regardless of whether you installed an adapter. This should _not_ be used to serve your app in production.
-
-currently the adapter for netlify is installed, so building for netlify just requires linking your github account and committing your changes to the main branch. netlify will then trigger a rebuild and deploy your site automatically!
 
 ### optimization
 
