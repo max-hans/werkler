@@ -65,7 +65,7 @@ type: project
 
 > ## Using VS Code for editing your posts
 >
-> by default VS Code will not recognize `.svx` files. switching to "Svelte" will autoformat your posts on save and detroy all your nice formatting. I suggest using "MDX" which will at least not destroy you formatting and also kind of highlight your code.
+> by default VS Code will not recognize `.svx` files. switching to "Svelte" will autoformat your posts on save and detroy all your nice formatting. I suggest using "MDX" which will at least not destroy your formatting and also **kind of** (lol) highlight your code.
 
 ## development
 
@@ -97,4 +97,4 @@ currently the adapter for netlify is installed, so building for netlify just req
 
 ### optimization
 
-currently, there is no optimization regarding images etc going on. this will be integrated soon.
+currently, there is no optimization regarding images etc going on. this should be integrated at some point, however doing it manually is also an option. I also suggest using something like [imageoptim](https://imageoptim.com/mac) to reduce filesize.
