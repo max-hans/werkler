@@ -1,5 +1,7 @@
 # 👷 werkler 👷
 
+![cover image](github/cover.png)
+
 Target of this project-template is to offer a really easy way to create a basic and performant blog / portfolio with the svelte-stack.
 
 All posts are written in Markdown, scaffolding of projects and automatic routing is already set up, so you can just start right off!
