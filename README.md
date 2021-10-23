@@ -83,6 +83,8 @@ styling is done entirely with basic css. no libraries or anything are used which
 
 feel free to add a ui library as you wish!
 
+most of the css is found in `/src/routes/__layout.svelte`. currently there is only one theme-color, that can be configured there.
+
 ## building / hosting
 
 Before creating a production version of your app, install an [adapter](https://kit.svelte.dev/docs#adapters) for your target environment. Then:
