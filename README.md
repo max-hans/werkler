@@ -77,6 +77,12 @@ npm run dev
 npm run dev -- --open
 ```
 
+## styling
+
+styling is done entirely with basic css. no libraries or anything are used which keeps the whole project quite light and manageable. display on mobile is fine regarding the effort put into it (very low).
+
+feel free to add a ui library as you wish!
+
 ## building / hosting
 
 Before creating a production version of your app, install an [adapter](https://kit.svelte.dev/docs#adapters) for your target environment. Then:
