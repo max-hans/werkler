@@ -7,7 +7,7 @@ Target of this project-template is to offer a really easy way to create a basic 
 All posts are written in Markdown, scaffolding of projects and automatic routing is already set up, so you can just start right off!
 Since the articles and images are all organized in this repo, you can just push your changes to the origin (e.g. github).
 
-Hosting is done via netlify which makes hosting things really easy. Netlify will default to rebuilding on every push on your main-branch, which makes updating your site really easy!
+Hosting is done via netlify which makes hosting a breeze since Netlify will rebuild your site on every push on your main-branch, which makes updating your site really easy!
 
 ## setup
 
